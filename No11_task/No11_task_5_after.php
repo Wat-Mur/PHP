@@ -15,3 +15,4 @@ $calendar_2018 = [
 ];
 
 echo $calendar_2018["December"];
+?>

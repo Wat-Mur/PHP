@@ -13,3 +13,4 @@ $2018_calendar = {
   "November" => "11月",
   "December" => "12月"
 };
+?>
