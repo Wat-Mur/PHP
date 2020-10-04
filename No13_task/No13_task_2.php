@@ -1,9 +1,12 @@
 <?php
-//引数の和を出す関数
+/**
+ * 引数の和を返す
+ *
+ * @param int $a 和を出すための項1 
+ * @param int $b 和を出すための項2 
+ */ 
 function plus_number($a,$b){
-  //仮引数$aと$bをの和を返す
-  $print_number = $a + $b;
-  return $print_number;
+  return $a + $b;
 }
 
 //メイン処理

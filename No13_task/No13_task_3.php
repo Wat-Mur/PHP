@@ -1,11 +1,17 @@
 <?php
-$arr = array(1,3,5,7,9);
-
-//配列の積を出す関数
+/**
+ * 配列の積を返す
+ *
+ * @param int $arr 要素の積を出す配列
+ * @param int $sum 積の合計 
+ */
+$arr = [1,3,5,7,9];
 function mult_array($arr){
-  //配列の要素の積を返す
-  $result = array_product($arr);
-  return $result;
+  $sum = 1;
+  foreach ($arr as $val){
+    $sum *= $val; 
+  }
+  echo $sum;
 }
 
 //メイン処理

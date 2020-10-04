@@ -1,10 +1,11 @@
 <?php
-//引数を2倍にして返す関数
+/**
+ * 引数を2倍にして返す
+ *
+ * @param int number	2倍にする値
+ */
 function twice_number($number){
-  //引数を2倍にして返す
-  $print_number = $number * 2;
-
-  return $print_number;
+  return $number * 2;
 }
 
 //メイン処理
